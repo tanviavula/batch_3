@@ -113,3 +113,13 @@ https://git-scm.com/downloads
  if else if
  
  nested if conditions
+ 
+ 
+ bill_amount > 5000 20%
+ else 5%
+ 
+ 
+ 
+ 
+ 
+ 
