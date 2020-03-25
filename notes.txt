@@ -1,0 +1,109 @@
+Programming? 
+
+Program?
+
+Programming Languages?
+
+C, C++, Java, .Net, Python...
+
+Write a program, which accepts three persons age and find the sum and average of their ages.
+
+Variable:
+		 Name given to the memory location is called variable
+Data types: 
+	     Kind data is going to store in the variable is called data types
+	     
+	     Reference :
+	     	String, Object, Employee
+	     	
+	     Primitive : Fundamental data types, this can hold single value
+	     
+			byte, short, char, int, float, double, long, boolean
+			
+Operators: 
+		Arithmetic 
+		Assignment
+		Comparison 
+		Logical
+		Bitwise
+		
+Arithmetic 		
+		+, - , * , / , %
+		
+		
+		
+file with extension : 
+
+	SumAndAverageAge.java
+
+javac: 
+
+    SumAndAverageAge.class ( byte )  => JVM 
+    
+ java SumAndAverageAge   
+    
+
+JSE
+JEE
+JME
+
+java => JDK , JRE , JVM
+
+Reference link: https://docs.oracle.com/javase/tutorial/getStarted/index.html
+
+
+JDK Download:
+
+1. https://www.oracle.com/java/technologies/javase-jdk13-downloads.html
+
+Eclipse:
+
+2. 
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-win32-x86_64.zip&mirror_id=1287
+
+Path variables: 
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_231
+classpath = C:\Program Files\Java\jdk1.8.0_231\lib
+path = C:\Program Files\Java\jdk1.8.0_231\bin
+
+
+Last 10 Min:
+
+https://git-scm.com/downloads
+
+/ 
+% = Remainder 
+
+ 13 / 4.0f => 3
+
+ 
+ >
+ >=
+ <
+ <=
+ ==
+ !=
+ 
+ boolean => true|false
+ 
+           a > b 
+           
+           
+           
+          System
+          Scanner
+          Math
+          String
+          StringBuffer
+          StringBuilder
+       
+       
+       Instance  => object
+       Class (static)    => by class name
+ 
+ Git: 
+    
+ Conditional: if,if-else, if-else-if
+ 
+ Iterative: for, while, do-while
+ Selection: switch      
