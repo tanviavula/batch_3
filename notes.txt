@@ -119,7 +119,33 @@ https://git-scm.com/downloads
  else 5%
  
  
+ if 
+else 
+if
+
+
+Logic operator
+
+&&   
+||
+!
+
+             a , b , c
+
+             big 
+
+	     if( a > b)
+                    big = a;
+	    else
+		  big = b;
  
+ Iterative:
  
+ for
+ while
+ do-while
  
+               for(int i = 1; i <= 10; i++){
+                  //Logic
+               }
  
