@@ -149,3 +149,30 @@ Logic operator
                   //Logic
                }
  
+
+ 6 face Dice
+
+one of 1 - 6
+
+1. method with return type with argument
+
+	public int sum(int a, int b){
+		return 0;
+	}
+2. method with return type without argument
+
+        public int getRandomNumber(){
+		return 2;
+	}
+3. method with no return type with argument
+	public void printJob(String data){
+		
+	}
+4. method with no return type without argument                 
+	public void close(){
+		//Logic....
+	}
+	
+Arrays
+String,StringBuffer,StringBuilder
+Object Oriented Programming
