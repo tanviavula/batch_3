@@ -27,5 +27,7 @@ public class ArrayCopySort {
 	
 		//Arrays.sort(arr);
 		System.out.println("Sort :"+Arrays.toString(arr));
+	System.out.println(3 & 5);
+	System.out.println(3 | 5);
 	}
 }

@@ -176,3 +176,22 @@ one of 1 - 6
 Arrays
 String,StringBuffer,StringBuilder
 Object Oriented Programming
+
+
+String:
+
+      String name = "CoreJava";
+      String name = new String("CoreJava");
+     
+      char[] ch = {'J','A','V','A};
+      String name = new String(ch);
+ 
+ String Objects Immutable:
+       Once object is create the content of object can't be modified.
+       
+       
+ = Assignment                  a = 10;
+ == Relational                 10 == 20  // Object it compares the references  obj1 == obj2
+ 
+ equals() => compares content of the object, Object class method =>overriden in string class
+     
