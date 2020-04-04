@@ -194,4 +194,10 @@ String:
  == Relational                 10 == 20  // Object it compares the references  obj1 == obj2
  
  equals() => compares content of the object, Object class method =>overriden in string class
-     
+   
+   
+ import java.lang
+ 
+ Every class super class Object
+ 
+   
