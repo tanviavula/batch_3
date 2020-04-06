@@ -200,4 +200,38 @@ String:
  
  Every class super class Object
  
+ 
+ OOP:
+ 
+ It is type of programming. That is driven by modeling code(Class) and building unit(Object)
+ 
+                              Every thing is Object
+                              
+Class?
+     Class a blue print to build an Object
+     
+     
+
+Object?
+	An instance of class is called Object
+	
+	
+	Account acc = new Account(1001,"Lakshman",87656);
+	
+OOP:
+
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. Polymorphism
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
    
