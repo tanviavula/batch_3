@@ -254,12 +254,35 @@ OOP:
 4. Polymorphism
  
  
+ Overloading:
+ 
+ 	- Writing two or more methods with same name with different parameters list in class is called overloading
+ 	- It takes place in the same
+ 	- It should have different parameters
+ 	  	   1. No of parameters
+           2. Oder of parameters
+           3. Type of parameters
+    - It any have any access modifier
+    - It can throw any exception 
+    - Return type can change 
  
  
  
+ private > default > protected > public
  
  
+ Overriding:
  
+    - Overriding takes place in sub class
+    - Signature must be same:
+           1. No of parameters
+           2. Oder of parameters
+           3. Type of parameters 
+           
+    - Return type must be same, except co-variant type
+    - Access Modifier should be same or less restrictive he should not be more restrictive
+    - The exception should be same exception or without exception or narrow exception.  It shouldn’t be new or border exception
+ 
+  SOLID
   
- 
    
