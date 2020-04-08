@@ -218,6 +218,34 @@ Object?
 	
 	Account acc = new Account(1001,"Lakshman",87656);
 	
+	
+Constructor:
+	It is special method, The job constructor is to initialize instance variable at the creating object
+	
+	1. Name of Constructor must be same as class name
+	2. There is no return types ( even void)
+	3. It can't be called by the programmer, it is called by JVM only once for the Object
+	4. Every class java compiler will provide default constructor. 
+	5. We can have our own constructor, this called user defined or parameterized constructor
+	6. Overloading is possible 
+
+Overloading:
+
+       1. No of parameters
+       2. Oder of parameters
+       3. Type of parameters
+       Must be different
+       
+ this: When we declare local variable and instance variable with same name, to access instance variables in local
+       scope we use "this"
+ 
+ this(): Is is used to call constructor of the same class from the another constructor with different params list   
+    	
+Methods:
+
+this
+this()
+
 OOP:
 
 1. Abstraction
