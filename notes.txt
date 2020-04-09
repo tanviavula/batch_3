@@ -285,4 +285,33 @@ OOP:
  
   SOLID
   
+  Wrapper classes 
+  
+  byte             - Byte
+  short            - Short
+  char                
+  int
+  float
+  double
+  long
+  boolean           - Boolean
+  
+  java.lang;
+  
+  java.lang.Object
+  
+  
+  .java
+  
+      1. One public class 
+  
+  super
+  super()
+  final
+  static
+  
+  Type casting
+     - UP
+     - Down
+     
    

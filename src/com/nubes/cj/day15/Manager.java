@@ -15,12 +15,12 @@ class Two extends One{
 		return 0.0f;
 	}
 	
-	
 }
 public class Manager {
 	public static void main(String[] args) {
-		Two obj = new Two();
-		obj.area(3);
+		int a = 100;
+		
+		
 		
 	}
 }

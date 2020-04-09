@@ -1,7 +1,5 @@
 package com.nubes.cj.day15;
 
-import java.io.IOException;
-
 public class Employee extends Object{
 		
 		private Integer empno;
