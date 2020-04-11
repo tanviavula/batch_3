@@ -308,8 +308,21 @@ OOP:
   super
   super()
   
-  final
+  final 
+  	
+  	class
+  	method
+  	variables
+  	local variable
+  	
+  	
   static
+  
+   imports
+   blocks
+   methods
+   inner classes
+  
   
   Type casting
      - UP
