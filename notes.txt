@@ -322,10 +322,63 @@ OOP:
    blocks
    methods
    inner classes
+   variables
   
   
   Type casting
      - UP
      - Down
      
+  Auto-Boxing
+  UnBoxing
+  
+  Interface
+  Abstract classes
+  
+    1. Zero or more abstract methods
+    2. It has constructor (we can have User defined constructors)
+    3. Object creation not possible, but we can create reference variable
+    4. Instance variable and class variable
+    5. Abstract method can be called from the concrete method of the abstract class
+    6. Abstract class can't final
+    7. Abstract method can't be final or private
+    8. Inheritance is done by using "extends"
+    9. class can extend only one abstract class
+ 
+  Interface:
+    Interface type of class or it is contract between two parties which contains 
+    abstract, default method and final variables.
+    
+    1. Object creation not possible 
+    2. We can create reference variable
+    3. No Constructor
+    4. Interface needs to implemented using  "implements"
+    5. Class can implement multiple interfaces at a time
+    6. Interface can extend another interface
+    7. All variable in interface is final
+  
+  	method    :    public abstract 
+  	variables : public static final 
+  	
+  	Java 8    : default method
+  	
+      Printer
+      connect(){}
+      disconnect(){}
+      print();
+         IBM
+         DELL
+         HP
+         
+          AbstractGame
+   
+ 
+ WaterGame    LandGames  AirGames
+  
+ 
+ Ship             Car Bike 
+
+  Exceptions
+  
+    
    
