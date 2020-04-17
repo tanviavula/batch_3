@@ -382,5 +382,26 @@ OOP:
   
   What is an Exception?
   
+  
+  Exception
+  Bug
+  Error
+  
+  
+  Exceptions:
+  			 Unchecked: If any Exception class extends java.lang.RuntimeException class then  it is called unchecked exception 
+             Checked  : If any Exception class extends java.lang.Exception class then  it is called checked exception 
+             
+  
+  keywords:
+  
+           try
+           catch
+           throw
+           throws
+           finally
+           
+           
+           
     
    
