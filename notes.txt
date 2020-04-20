@@ -397,11 +397,70 @@ OOP:
   
            try
            catch
+           finally
            throw
            throws
-           finally
+           
+                                       Throwable
+                               
+                    Errors                               Exception
+                                             |                           |
+                                        IOException                RuntimeException
+                                        						          ArrayIndexOutOfBounsException
+                                        						          NullPointerException
            
            
-           
+   
+   try-multiple catch
+   throw
+   throws
+   Custom - Exception
+   
+   
+   
+    TaskManager
     
+           1. You can create Only one object 
+           2. Don't allow to clone
+           
+   Collection Framework
+   	java.util
+	   Collection
+	   List=> ArrayList
+	   Set => HashSet, LinkedHashSet
+	   Map => HashMap, HashTable
+	   Comparable, Comparator
+	  
+	   Arrays
+	   Collections
+	   
+	java.util.stream   
+	   Streams
+	   Lambda
+ 
+   Files
+   Threads
+   JDBC
+-----------------------------------------------------------------------------------------------------------------------   
+ HTML, CSS, JavaScript, BootStrap, Angular9
+ -----------------------------------------------------------------------------------------------------------------------
+ Build tools:
+  Maven
+ 
+ Spring Framework
+  Core
+  MVC
+  REST
+      Splunk
+  Security
+ ------------------------------------------------------------------------------------------------------------------------
+ Deployment:
+ 
+  Jenkins
+  SonarCube
+  Heroku
+  
+   
+     
+           
    

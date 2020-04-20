@@ -13,10 +13,7 @@ class Employee{
 	public Employee(String name) {
 		super();
 		this.name = name;
-	
 	}
-	
-	
 }
 
 public class ExceptionExample2 {
