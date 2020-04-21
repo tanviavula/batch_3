@@ -424,11 +424,32 @@ OOP:
            2. Don't allow to clone
            
    Collection Framework
+   	
+   	collection 
+   	
    	java.util
+	   
 	   Collection
+	   
 	   List=> ArrayList
+	   
+	   1. Ordered Collection
+	   2. Elements can inserted based index
+	   3. It allows duplicate 
+	   4. It allows null values
+	   
 	   Set => HashSet, LinkedHashSet
+	   
+	   1. Unordered 
+	   2. It doesn't duplicate
+	   3. Only single null is allowed
+	   
 	   Map => HashMap, HashTable
+	   
+	   1. Key and Value pair
+	   2. Key can't duplicate
+	   
+	   
 	   Comparable, Comparator
 	  
 	   Arrays
