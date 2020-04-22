@@ -1,18 +1,31 @@
 package com.nubes.cj.day26;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+
 public class ListExample1 {
+	
+
 	public static void main(String[] args) {
 		List<Integer> list = new ArrayList<Integer>();
+		list.add(4);
 		list.add(1);
 		list.add(2);
 		list.add(5);
-		list.add(4);
+		Comparator<Integer>  descObj = (o1,o2)-> o2.compareTo(o1);
 		
+		Comparator<Integer>  ascObj = (Integer o1, Integer o2)-> {
+			int res = o1.compareTo(o2);
+			return res;
+		};
+		Collections.sort(list);
+		System.out.println(list);
+		list.sort(ascObj);
 //		for(Integer ele:list) {
 //			System.out.println(ele);
 //		}
@@ -48,6 +61,10 @@ public class ListExample1 {
 			Integer ele = iterator1.previous();
 			System.out.println(ele);
 		}
+		
+		
 	}
+	
+	
 }
 
