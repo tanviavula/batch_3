@@ -455,7 +455,11 @@ OOP:
 	   Arrays
 	   Collections
 	   
-	java.util.stream   
+	java.util.stream 
+	
+	https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html
+	
+	  
 	   Streams
 	   Lambda
  

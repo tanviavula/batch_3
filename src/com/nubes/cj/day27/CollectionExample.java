@@ -38,12 +38,16 @@ public class CollectionExample {
 			list.add(emp4);
 //			Collections.sort(list,(e1,e2)->e1.getName().compareTo(e2.getName()));
 //			list.stream().forEach(System.out::println);
-			list.stream().sorted((e1,e2)->e1.getName().compareTo(e2.getName())).forEach(ele->{
-				System.out.println(ele.getName());
-			});
+//			list.stream().sorted((e1,e2)->e1.getName().compareTo(e2.getName())).forEach(ele->{
+//				System.out.println(ele.getName());
+//			});
+//			
+//			list.sort(Comparator.comparing(Employee::getSalary).thenComparing(Employee::getAge).thenComparing(Employee::getAge));
+//			list.stream().forEach(System.out::println);
 			
-			list.sort(Comparator.comparing(Employee::getSalary).thenComparing(Employee::getAge).thenComparing(Employee::getAge));
-			list.stream().forEach(System.out::println);
+			list.stream().filter(e->e.getSalary()>50000).map(e->e.getName()).forEach(e->{
+				System.out.println(e);
+			});
 			
 	}
 }
