@@ -35,7 +35,6 @@ public class ContactServiceImpl implements ContactService {
 	public Contact addContact(Contact contact) throws ContactExistsException {
 		Assert.assertNotNull("Contact object can't null",contact);
 		Contact newContact = contactDao.addContact(contact);
-		System.out.println("Contact is added with id:"+newContact.getId());
 		return newContact;
 	}
 
@@ -47,8 +46,7 @@ public class ContactServiceImpl implements ContactService {
 
 	@Override
 	public List<Contact> getAllContacts() {
-		// TODO Auto-generated method stub
-		return null;
+		return contactDao.getAllContacts();
 	}
 
 	@Override

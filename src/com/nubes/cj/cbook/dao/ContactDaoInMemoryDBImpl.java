@@ -29,6 +29,10 @@ public class ContactDaoInMemoryDBImpl implements ContactDao {
 
 	@Override
 	public Contact addContact(Contact contact) throws ContactExistsException {
+		
+		if(checkExistanceOfMobileNumber(contact.getMobile())) {
+			throw new ContactExistsException("Contact already exists with mobile:"+contact.getMobile());
+		}
 		String id = ContactUtil.generateId();
 		contact.setId(id);
 		list.add(contact);
@@ -43,8 +47,7 @@ public class ContactDaoInMemoryDBImpl implements ContactDao {
 
 	@Override
 	public List<Contact> getAllContacts() {
-		// TODO Auto-generated method stub
-		return null;
+		return list;
 	}
 
 	@Override
@@ -57,6 +60,10 @@ public class ContactDaoInMemoryDBImpl implements ContactDao {
 	public boolean deleteContact(String cid) {
 		// TODO Auto-generated method stub
 		return false;
+	}
+	
+	private boolean checkExistanceOfMobileNumber(final String mobile) {
+		return list.stream().anyMatch(e->e.getMobile().equals(mobile));
 	}
 
 }

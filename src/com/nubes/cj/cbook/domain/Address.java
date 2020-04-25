@@ -13,6 +13,5 @@ import lombok.Setter;
 @Builder
 public class Address {
 	private String city;
-	private String zipcode;
-	private String state;
+    private String state;
 }

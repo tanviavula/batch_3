@@ -12,5 +12,8 @@ public interface ContactService {
 		List<Contact> getAllContacts();
 		List<Contact> search(String str);
 		boolean deleteContact(String cid);
+		default int count() {
+			return getAllContacts().size();
+		}
 		
 }
