@@ -1,30 +1,55 @@
 package com.nubes.cj.day30;
 
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
+class Example<T>{
+	List<T> list = new ArrayList<>();
+	
+	void add(T ele) {
+		list.add(ele);
+	}
+	List<T> getList(){
+		return list;
+	}
+}
+class A{
+	
+}
+
+class B extends A{
+	
+}
+class C extends B {
+	
+}
 public class SetExample2 {
 	public static void main(String[] args) {
-		List<Integer> list1 = IntStream.rangeClosed(1, 10).boxed().collect(Collectors.toList());
-		List<Integer> list2 = IntStream.rangeClosed(5, 30).boxed().collect(Collectors.toList());
-		List<Integer> list3 = IntStream.rangeClosed(10, 20).boxed().collect(Collectors.toList());
-		list1.addAll(list2);
-		list1.addAll(list3);
-	    
-		Set<Integer> set = new HashSet<>();
+//		Example<Integer> obj = new Example<>();
+//		obj.add(1001);
+//		obj.add(1002);
+//		obj.add(1003);
+//		List<Integer> list1 = new ArrayList<>();
+//		List<Float> list2 = new ArrayList<>();
+//		List<Double> list3= new ArrayList<>();
+//		sumOfList(list1);
+//		sumOfList(list2);
+//		sumOfList(list3);
 		
-		for(Integer ele:list1) {
-			System.out.println(ele+" is added to the set");
-			if(set.add(ele)) {
-				System.out.println("Duplicate element...."+ele);
-			}
-		}
-		System.out.println(set);
+		List<B> l1= new ArrayList<>();
+		List<A> l2= new ArrayList<>();
+		List<C> l3= new ArrayList<>();
+		List<Object> l4=new ArrayList<>();
+		
+		sumOfList(l2);
+		sumOfList(l3);
+		sumOfList(l4);
 		
 		
+		
+	}
+	
+	public static double sumOfList(List<? super C> list) {
+	    return 0.0;
 	}
 }

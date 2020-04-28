@@ -459,11 +459,16 @@ OOP:
 	
 	https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html
 	
-	  
+	 https://docs.oracle.com/javase/tutorial/java/generics/index.html
+	 
+	 
 	   Streams
 	   Lambda
+ 	
  
    Files
+   Reflection API:
+          https://jsltech.blogspot.com/2012/05/reflection-api-in-java.html
    Threads
    JDBC
 -----------------------------------------------------------------------------------------------------------------------   

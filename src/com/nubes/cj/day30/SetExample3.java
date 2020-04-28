@@ -23,8 +23,8 @@ public class SetExample3 {
 		System.out.println(names);
 		
 		Set<String> dept_all_set = new HashSet<>();
-		// Get me people who are working for all departments
 		
+		// Get me people who are working for all departments
 		if (l1.size() < l2.size() && l1.size() < l3.size()) {
 			for (String ele : l1) {
 				if (l2.contains(ele) && l3.contains(ele)) {
