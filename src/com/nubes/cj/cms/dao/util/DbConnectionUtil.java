@@ -1,4 +1,4 @@
-package com.nubes.cj.day33;
+package com.nubes.cj.cms.dao.util;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,8 +13,8 @@ import java.util.Properties;
 
 import com.mysql.jdbc.PreparedStatement;
 
-public enum DbConnection {
-	util;
+public enum DbConnectionUtil {
+	obj;
 	
 	private static Properties properties = new Properties();
 	static {
